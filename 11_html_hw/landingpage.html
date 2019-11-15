@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang ="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Landing Page</title>
+	<link rel='stylesheet' type ="text/css" href="style.css">
+	<link rel='stylesheet' type ="text/css" href="navbar.css">
+</head>
+<body>
+
+<div class = "navbar">
+<ul>
+  <li style="float:right"><a class="active" href="./landingpage.html" target= "_blank">Summary</a></li>
+  <li><a href="./comparisonspage.html" target= "_blank" >Comparison</a></li>
+  <li><a href="./data.html" target= "_blank">Data</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Plots</a>
+    <div class="dropdown-content">
+      <a href="./visual_maxtemp.html" target= "_blank"> V. Max Temp</a>
+      <a href="./visual_humidity.html" target= "_blank">V. Humidity</a>
+      <a href="./visual_cloudiness.html" target= "_blank">V. Cloudiness</a>
+      <a href="./visual_windspeed.html" target= "_blank">V Wind Speed</a>
+      
+    </div>
+</ul>
+</div>
+
+	<div id ="Summary description">
+		<h1>Summary of Project</h1>
+	<figure class = "box-background">
+		<div class = "img">
+		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\html_hw\Resources\assets\images\Fig1.png" width= 280 height= 285 alt = "Max Temp">
+		</div>
+		<p>
+		The purpose of the project was to analyze weather in different locations. Weather was analyzed by locations and compared to distance from the equator to determine if the equator had any impact on the changes on the changes in weather. Factors that were provided in the data were locations, cloudiness, humidity, max temperature and wind speed.</p> 
+		<p>Four different graphs were provided in the dataset and then Matplotlib was used to plot in order to explaining relationships between weather and location:
+		<center><ol><em>City Latitude vs. Max Temperature</em></ol>
+		<ol><em>City Latitude vs. Humidity</em></ol>
+		<ol><em>City Latitude vs. Cloudiness</em></ol>
+		<ol><em>City Latitude vs. Wind Speed</em></ol></center>
+		</p>
+	</figure>
+	</div>
+<br>
+<br>
+	<div id ="four visualizations">
+
+	<center><h2>Visualizations</h2></center>
+	<p> click graph for more details:</p>
+	<figure class = "box-background">
+		<center>
+		<a href="./visual_maxtemp.html" target= "_blank">
+		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\html_hw\Resources\assets\images\Fig1.png" width= 280 height= 285 alt = "Max Temp"></a>
+		<a href="./visual_humidity.html" target= "_blank">
+		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\html_hw\Resources\assets\images\Fig2.png" width= 280 height= 285 alt = "Humidity"></a>
+		<a href="./visual_cloudiness.html" target= "_blank">
+		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\html_hw\Resources\assets\images\Fig3.png" width= 280 height= 285 alt = "Cloudiness"></a>
+		<a href="./visual_windspeed.html" target= "_blank">
+		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\html_hw\Resources\assets\images\Fig4.png" width= 280 height= 285 alt = "Wind Speed"></a>
+		</center>
+	 </figure>
+
+
+	</div>
+</body>
+</html>

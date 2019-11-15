@@ -1,0 +1,41 @@
+  
+  h1{
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: Black;
+    text-align: center;
+    background-color: LightBlue;
+    font-family: Geneva; 
+
+  }
+
+  h2{
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: Black;
+    background-color: LightBlue;
+    text-align: left;
+    text-align: center;
+    font-family: Geneva;
+  }
+
+  p{
+    font-size: 20px;
+    color: Black;
+    font-family: Arial;
+
+  }
+
+  .box-set
+  {
+    background-color: LightGrey;
+  }
+
+  .box-background
+  {
+    background-color: LightGrey; 
+  }
+
+.img {
+  float: left;
+}
